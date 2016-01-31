@@ -28,6 +28,7 @@ public class SampleTest extends WebDriverActivities{
 	@Test
 	public static void gitHubTest() {
 		System.out.println("This is a test from Mohammad");
+		System.out.println("This is Saki");
 	}
 
 }
