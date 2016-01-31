@@ -24,5 +24,10 @@ public class SampleTest extends WebDriverActivities{
 	public static void afterClass() {
 		tearDownDriver();
 	}
+	
+	@Test
+	public static void gitHubTest() {
+		System.out.println("This is a test from Mohammad");
+	}
 
 }
