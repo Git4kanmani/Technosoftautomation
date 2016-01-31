@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RFR Sanity Test Suite" parallel="none">
+    <listeners>
+		<listener class-name="com.reserve.rfr.utilities.CustomReporter" />
+	</listeners>
+  <test name="RFR Sanity Test">
+    <classes>
+      <class name="com.reserve.rfr.tests.RFR_204_VerifyLoginAndLogout"/>
+    </classes>
+  </test> <!-- RFR Sanity Test -->
+</suite> <!-- RFR Sanity Test Suite -->

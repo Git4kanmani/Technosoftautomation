@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Widget Regression Testing" parallel="tests">
+	<listeners>
+		<listener class-name="com.technosoft.auto.framework.chunks.CustomReporter" />
+	</listeners>
+	<test name="Firefox Browser Testing">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_46.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_46.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_45.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_45.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<!-- <test name="Chrome_40.Chrome_44.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_44.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_43.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_43.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_42.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_42.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_41.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_41.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_40.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_40.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_39.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_39.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_30.0_Win8.1 Testing">
+		<parameter name="browser" value="Chrome_30.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_46.0_Mac Testing">
+		<parameter name="browser" value="Chrome_46.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_45.0_Mac Testing">
+		<parameter name="browser" value="Chrome_45.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_44.0_Mac Testing">
+		<parameter name="browser" value="Chrome_44.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_43.0_Mac Testing">
+		<parameter name="browser" value="Chrome_43.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_42.0_Mac Testing">
+		<parameter name="browser" value="Chrome_42.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_41.0_Mac Testing">
+		<parameter name="browser" value="Chrome_41.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_40.0_Mac Testing">
+		<parameter name="browser" value="Chrome_40.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="Chrome_39.0_Mac Testing">
+		<parameter name="browser" value="Chrome_39.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="IE_9.0_Win7 Testing">
+		<parameter name="browser" value="IE_9.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="IE_10.0_Win7 Testing">
+		<parameter name="browser" value="IE_10.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="IE_11.0_Win8.1 Testing">
+		<parameter name="browser" value="IE_11.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_20.0_Win7 Testing">
+		<parameter name="browser" value="firefox_20.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_35.0_Win7 Testing">
+		<parameter name="browser" value="firefox_35.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_38.0_Win7 Testing">
+		<parameter name="browser" value="firefox_38.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_39.0_Win7 Testing">
+		<parameter name="browser" value="firefox_39.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_39.firefox_40.0_Win7 Testing">
+		<parameter name="browser" value="firefox_40.0_Win7" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_41.0_Win8.1 Testing">
+		<parameter name="browser" value="firefox_41.0_Win8.1" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_35.0_Mac Testing">
+		<parameter name="browser" value="firefox_35.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_38.0_Mac Testing">
+		<parameter name="browser" value="firefox_38.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_39.0_Mac Testing">
+		<parameter name="browser" value="firefox_39.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_40.0_Mac Testing">
+		<parameter name="browser" value="firefox_40.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+	<test name="firefox_41.0_Mac Testing">
+		<parameter name="browser" value="firefox_41.0_Mac" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test> -->
+</suite> <!-- Regression Widget Testing -->

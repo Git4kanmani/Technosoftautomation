@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Cross Browser Test" parallel="none">
+	<listeners>
+		<listener class-name="com.reserve.widget.utilities.CustomReporter" />
+	</listeners>
+ 	<test name="Ios Android Chrome browser">
+		<parameter name="browser" value="android" />
+		<classes>
+			<class name="com.reserve.widget_tests.RTM_Widget_Functionality" />
+		</classes>
+	</test>  
+<!--   	<test name="Chrome Browser Testing">
+		<parameter name="browser" value="iPhone_ios" /> 
+		<classes>
+			<class name="com.reserve.widget_tests.RTM_Widget_Functionality" />
+		</classes>
+	</test>   -->  
+</suite> <!-- Sanity Test Suite -->

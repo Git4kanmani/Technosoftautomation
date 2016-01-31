@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Suite" parallel="none">
+	<listeners>
+		<listener class-name="com.technosoft.auto.framework.chunks.CustomReporter" />
+	</listeners>
+	<test name="Firefox Browser Testing">
+		<parameter name="browser" value="" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>
+ 	<!--  <test name="Chrome Browser Testing">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.technosoft.auto.tests.SampleTest" />
+		</classes>
+	</test>  --><!-- Widget Sanity Testing -->
+</suite> <!-- Sanity Test Suite -->
