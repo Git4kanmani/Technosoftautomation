@@ -16,7 +16,7 @@ public class SampleTest extends WebDriverActivities{
 		startTest("Sample Test", "Regression Group");
 		SamplePage.enterDataIntoEmailField(TestData.EMAIL_FIELD_DATA);
 		SamplePage.loginButton();
-		endTestWithPassStatus("Sample Test");
+		endTestWithPassStatus("Sample  Test");
 	}
 	
 
